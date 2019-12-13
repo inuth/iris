@@ -1,0 +1,33 @@
+EXERCICE MUSIQUE
+
+
+PERSONNE
+	id
+	nom
+	prenom
+	musiqueFavorite (une seule)
+
+MUSIQUE
+	id
+	titre
+	auteur (un seul auteur)
+	duree (nombre de minutes)
+
+AUTEUR
+	id
+	pseudonyme (faire en sorte que le champ s'appelle pseudo en java et pseudonyme en DB)
+	reference (varchar, unique)
+	musiques (il peut avoir écrit plusieurs musiques)
+	
+
+On aimerait pouvoir récupérer une personne avec 4 données : 
+	son nom
+	son prenom
+	sa musique préférée
+	le nom de l'auteur qui la chante
+
+
+Un peu plus difficile (car on a pas encore tout vu): lorsque l'on récupère une musique, on aimerait récupérer son titre, sa durée, le nom de son auteur ET le nombre de
+personnes ayant cette musique en favorite.
+
+	
